@@ -3,8 +3,8 @@ const data= [
         id : 0,
         img : '/images/redmiK20.jpg',
         name : 'Redmi K20',
-        price : 190,
-        save : 25,
+        price : 15740,
+        save : 2071,
         delievery : 'In 3 - 4 days',
         itemInCart: false
     },
@@ -12,8 +12,8 @@ const data= [
         id : 1,
         img : '/images/samGalaxynote20.jpg',
         name : 'Samsung Galaxy Note 20',
-        price : 300,
-        save : 50,
+        price : 24854,
+        save : 4142,
         delievery : 'In 3 - 4 days',
         itemInCart: false
     },
@@ -21,8 +21,8 @@ const data= [
         id : 2,
         img : '/images/oppofindX2.jpg',
         name : 'OPPO Find X2',
-        price : 240,
-        save : 30,
+        price : 19883,
+        save : 2485,
         delievery : 'In 3 - 4 days',
         itemInCart: false
     },
@@ -30,8 +30,8 @@ const data= [
         id : 3,
         img : '/images/realmeX20pro.jpg',
         name : 'Realme X50 Pro',
-        price : 285,
-        save : 35,
+        price : 23611,
+        save : 2899,
         delievery : 'In 3 - 4 days',
         itemInCart: false
     },
@@ -39,8 +39,8 @@ const data= [
         id : 4,
         img : '/images/redminote8.jpg',
         name : 'Redmi Note 8',
-        price : 200,
-        save : 15,
+        price : 16569,
+        save : 1242,
         delievery : 'In 3 - 4 days',
         itemInCart: false
     },
@@ -48,8 +48,8 @@ const data= [
         id : 5,
         img : '/images/redminote9.jpg',
         name : 'Redmi Note 9',
-        price : 220,
-        save : 25,
+        price : 18226,
+        save : 2071,
         delievery : 'In 3 - 4 days',
         itemInCart: false
     },
@@ -57,8 +57,8 @@ const data= [
         id : 6,
         img : '/images/redmi8.jpg',
         name : 'Redmi 8A Dual',
-        price : 160,
-        save : 20,
+        price : 13255,
+        save : 1656,
         delievery : 'In 3 - 4 days',
         itemInCart: false
     },
@@ -66,8 +66,8 @@ const data= [
         id : 7,
         img : '/images/redmi9.jpg',
         name : 'Redmi 9',
-        price : 100,
-        save : 10,
+        price : 8284,
+        save : 828,
         delievery : 'In 3 - 4 days',
         itemInCart: false
     },
@@ -126,8 +126,8 @@ function handleDetail(e){
     getId= this.parentNode.id;
     detailsImg.src= data[getId].img;
     detailTitle.innerHTML=   data[getId].name;
-    detailPrice.innerHTML= 'Price : $ ' +data[getId].price;
-    youSave.innerHTML= 'You save : ($ ' + data[getId].save + ')';
+    detailPrice.innerHTML= 'Price : ₹ ' +data[getId].price;
+    youSave.innerHTML= 'You save : (₹ ' + data[getId].save + ')';
 }
 
 // add item to the cart
